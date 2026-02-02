@@ -4,6 +4,7 @@ function [cluster] = degree_descent(T,degs,noiseT)
 n = size(T.Nodes,1);
 cluster = zeros(n,1);
 mark = 1;
+%% Arrange all points in degree descending order
 [deg_sort, sort_id] = sort(degs,'descend');
 while ismember(0,cluster)
     id = find(cluster==0);
@@ -44,4 +45,5 @@ for i=1:max(cluster)
         mark = mark + 1;
     end
 end
+
 end
