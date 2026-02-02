@@ -23,7 +23,7 @@ function [cluster] = meancut (X, varargin)
 %   'k2'           - A non-negative integer specifying the number of nearest neighbors for MST. 
 %                    It must be smaller than N.
 %                    Default: 20
-%   'ratio'        - A positive scalar in [0,1] specifying the percentile of the number of boudanry 
+%   'ratio'        - A positive scalar in [0,1] specifying the percentile of the number of boundary 
 %                    points to the total number of points. 
 %                    Default: 0
 %   'Embed'        - Logical scalar. If true, project X with more than 5000 samples and 50 features
