@@ -7,7 +7,7 @@ We propose a novel graph clustering algorithm. Our key contribution lies in deve
 
 # MATLAB
 
-Download the code and run the 'main' file in the 'MeanCut' folder. ***To be noted, the Deep Learning Toolbox should be installed in MATLAB before running the application of Face Recognition.***
+Download the code and run the 'main' file in the 'MeanCut' folder.
 
 The 'meancut' function provides multiple hyperparameters for user configuration as follows 
 ```matlab
