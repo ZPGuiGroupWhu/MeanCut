@@ -1,4 +1,4 @@
-![image](https://img.shields.io/badge/MATLAB-R2023a-red)![image](https://img.shields.io/badge/Python-3.9-yellow)
+![image](https://img.shields.io/badge/MATLAB-R2023a-red) ![image](https://img.shields.io/badge/Python-3.11-yellow)
 # MeanCut: Greedy graph clustering by fast maximum spanning tree and degree descent criterion
 
 We propose a novel graph clustering algorithm. Our key contribution lies in developing an single-cluster-oriented graph cut function MeanCut and leveraging the degree descent criterion to greedily optimize MeanCut. It is theoretically proved that the degree descent criterion guarantees the global optimality under the premise of path-based similarity and predefined assumptions. Credit to the density gradient factor (DGF), MeanCut enables the effective separation of weakly connected clusters. A fast approximate maximum spanning tree (FastMST) improves the time efficiency of MST generation using a KNN-based sparse graph. The experimental results demonstrated that MeanCut presents distinct advantages in clustering accuracy, parameter robustness, and time scalability and exhibits remarkable potentials for downstream tasks.
