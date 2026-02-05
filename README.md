@@ -7,7 +7,7 @@ We propose a novel graph clustering algorithm. Our key contribution lies in deve
 
 # MATLAB
 
-Download the code and run the 'main' file in the 'MeanCut' file. ***To be noted, the Deep Learning Toolbox should be installed in MATLAB before running the application of Face Recognition.***
+Download the code and run the 'main' file in the 'MeanCut' folder. ***To be noted, the Deep Learning Toolbox should be installed in MATLAB before running the application of Face Recognition.***
 
 The 'meancut' function provides multiple hyperparameters for user configuration as follows 
 ```matlab
@@ -79,7 +79,7 @@ pip install -r MeanCut_Python/requirements.txt
 ```
 
 ## Run
-
+The datasets can be found in the 'MeanCut' folder.
 ```bash
 python MeanCut_Python/main.py --dataset DS1
 python MeanCut_Python/main.py --dataset DS1 --plot
