@@ -86,7 +86,9 @@ python MeanCut_Python/main.py --dataset DS1 --plot
 python MeanCut_Python/main.py --dataset "Synthetic Datasets/DS5.txt"
 ```
 
-
 # License
 
 This project is covered under the Apache 2.0 License.
+
+# Citation Request
+D. Peng, Z. Gui, Y. Liu, Y. Huang, J. Gui and H. Wu, "MeanCut: Greedy Graph Clustering by Fast Maximum Spanning Tree and Degree Descent Criterion," in IEEE Transactions on Fuzzy Systems, vol. 34, no. 8, pp. 2476-2489, Aug. 2026, doi: 10.1109/TFUZZ.2026.3692651. 
