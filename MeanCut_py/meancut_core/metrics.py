@@ -54,6 +54,9 @@ def get_nmi(A, B):
     A = np.asarray(A, dtype=int).ravel()
     B = np.asarray(B, dtype=int).ravel()
 
+    # Partition membership is independent of the label encoding.
+    A = np.unique(A, return_inverse=True)[1] + 1
+    B = np.unique(B, return_inverse=True)[1] + 1
     N = A.size
     Ca = int(np.max(A)) if N > 0 else 0
     Cb = int(np.max(B)) if N > 0 else 0
